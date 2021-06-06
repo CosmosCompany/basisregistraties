@@ -20,7 +20,7 @@ const PersoonType = new GraphQLObjectType ({
 		geslacht: {type: GraphQLString},
 		adelijkeTitel: {type: GraphQLString},
 		geboorteData: {type: geboorteData},
-		overlijdenDatum: {type: GraphQLDate}
+		overlijdensDatum: {type: GraphQLDate}
 		bsn: {type: GraphQLInt},
 		adres: {type: adres},
 		correspondentie: {type: adres},
